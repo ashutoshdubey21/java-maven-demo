@@ -12,7 +12,7 @@ pipeline {
                 }
             }
         }
-    /*   
+     
         stage('Deploy in Staging Environment'){
             steps{
                 build job: 'Staging_Environment'
@@ -20,6 +20,7 @@ pipeline {
             }
             
         }
+     /*     
         stage('Deploy to Production'){
             steps{
                 timeout(time:5, unit:'DAYS'){
