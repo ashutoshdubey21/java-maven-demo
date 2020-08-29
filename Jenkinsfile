@@ -12,7 +12,7 @@ pipeline {
                 }
             }
         }
-       
+    /*   
         stage('Deploy in Staging Environment'){
             steps{
                 build job: 'Staging_Environment'
@@ -28,6 +28,6 @@ pipeline {
                 build job: 'Production_Environment'
             }
         }
-       
+   */    
     }
 }
